@@ -6,3 +6,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.banner-background-image {
+    width:100%;
+    height:100%;
+
+}
