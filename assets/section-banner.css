@@ -5,6 +5,7 @@
 .section-banner {
   display: flex;
   flex-flow: nowrap;
+  background: url('background.png') no-repeat cover;
 }
 .section-banner .section-banner-box {
   display: none;
