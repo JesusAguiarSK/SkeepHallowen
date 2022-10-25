@@ -5,28 +5,6 @@
       "settings": {
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Free Shipping | Money Guarantee | 24\/7 lifetime <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -57,7 +35,6 @@
   },
   "order": [
     "ee3b84dc-9fbd-4453-835f-27641b102341",
-    "rich_text",
     "featured_collection"
   ]
 }
