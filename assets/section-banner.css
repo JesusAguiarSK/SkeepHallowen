@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
 .section-banner-info-description {
   background-color: blue;
 }
