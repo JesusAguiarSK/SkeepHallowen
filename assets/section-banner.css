@@ -23,12 +23,10 @@
   border-radius: 10px;
 }
 .section-banner .section-banner-info .section-banner-info-date-box .section-banner-info-date-text {
-  position: absolute;
   width: 199px;
   height: 25px;
   left: 265px;
   top: 163px;
-  font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -36,7 +34,6 @@
   /* identical to box height, or 139% */
   text-align: center;
   color: #FFFFFF;
-  z-index: 10;
 }
 .section-banner-info-description {
   background-color: blue;
