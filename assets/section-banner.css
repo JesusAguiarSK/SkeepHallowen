@@ -21,6 +21,7 @@
   top: 155px;
   background: #FF439D;
   border-radius: 10px;
+  z-index: -1;
 }
 .section-banner .section-banner-info .section-banner-info-date-box .section-banner-info-date-text {
   position: absolute;
