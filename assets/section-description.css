@@ -1,0 +1,111 @@
+.shop-description {
+  display: flex;
+  flex-flow: row wrap;
+  position: absolute;
+  width: 1440px;
+  height: 105px;
+  left: 0px;
+  top: 563px;
+  background: #FF3945;
+}
+.shop-description .shop-description-shipping .shop-description-shipping-image {
+  Width: 47px;
+  Height: 31px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.shop-description .shop-description-shipping .shop-description-shipping-title {
+  position: absolute;
+  width: 170px;
+  height: 26px;
+  left: 203px;
+  top: 588px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.shop-description .shop-description-shipping .shop-description-shipping-text {
+  position: absolute;
+  width: 192px;
+  height: 18px;
+  left: 205px;
+  top: 619px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.shop-description .shop-description-guarantee .shop-description-guarantee-image {
+  position: absolute;
+  width: 46px;
+  height: 31px;
+  left: 563px;
+  top: 599px;
+}
+.shop-description .shop-description-guarantee .shop-description-guarantee-title {
+  position: absolute;
+  width: 232px;
+  height: 26px;
+  left: 640px;
+  top: 588px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.shop-description .shop-description-guarantee .shop-description-guarantee-text {
+  position: absolute;
+  width: 138px;
+  height: 18px;
+  left: 640px;
+  top: 619px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.shop-description .shop-description-support .shop-description-support-image {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 1034px;
+  top: 597px;
+}
+.shop-description .shop-description-support .shop-description-support-title {
+  position: absolute;
+  width: 159px;
+  height: 26px;
+  left: 1102px;
+  top: 588px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.shop-description .shop-description-support .shop-description-support-text {
+  position: absolute;
+  width: 176px;
+  height: 18px;
+  left: 1102px;
+  top: 619px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
