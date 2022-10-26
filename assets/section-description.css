@@ -39,6 +39,15 @@
   line-height: 18px;
   color: #FFFFFF;
 }
+.shop-description .shop-description-line-left {
+  position: absolute;
+  width: 61px;
+  height: 0px;
+  left: 479px;
+  top: 585px;
+  border: 1px solid #FFB8BA;
+  transform: rotate(90deg);
+}
 .shop-description .shop-description-guarantee .shop-description-guarantee-image {
   width: 46px;
   height: 31px;
@@ -66,6 +75,15 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
+}
+.shop-description .shop-description-line-right {
+  position: absolute;
+  width: 61px;
+  height: 0px;
+  left: 967px;
+  top: 585px;
+  border: 1px solid #FFB8BA;
+  transform: rotate(90deg);
 }
 .shop-description .shop-description-support .shop-description-support-image {
   width: 34px;
