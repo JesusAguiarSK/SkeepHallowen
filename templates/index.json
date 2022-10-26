@@ -5,6 +5,12 @@
       "settings": {
       }
     },
+    "bbb02eef-4657-4bdd-9936-fcfee8106782": {
+      "type": "section-description",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -32,10 +38,18 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "6e778182-4572-4e2d-af5c-ed893ed0a005": {
+      "type": "section-description",
+      "disabled": true,
+      "settings": {
+      }
     }
   },
   "order": [
     "ee3b84dc-9fbd-4453-835f-27641b102341",
-    "featured_collection"
+    "bbb02eef-4657-4bdd-9936-fcfee8106782",
+    "featured_collection",
+    "6e778182-4572-4e2d-af5c-ed893ed0a005"
   ]
 }
