@@ -7,9 +7,6 @@
   flex-flow: nowrap;
   background: url('background.png') no-repeat cover;
 }
-.section-banner .section-banner-box {
-  display: none;
-}
 .section-banner .section-banner-info {
   display: flex;
   flex-flow: column wrap;
@@ -38,7 +35,6 @@
 }
 .section-banner .section-banner-info .section-banner-info-ultimate {
   position: absolute;
-  width: 435px;
   height: 75px;
   left: 147px;
   top: 210px;
@@ -52,7 +48,6 @@
 }
 .section-banner .section-banner-info .section-banner-info-friday {
   position: absolute;
-  width: 521px;
   height: 88px;
   left: 104px;
   top: 270px;
