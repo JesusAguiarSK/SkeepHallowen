@@ -4,19 +4,19 @@
 
 {% if section.settings.banner_modular_image %}
   
-  <div class="banner_modular_image_group" style="background:url({{ section.settings.banner_modular_image | img_url: '1920x475' }}) #F7F7F7">
+  <div class="banner-modular-image-group" style="background:url({{ section.settings.banner_modular_image | img_url: '1920x475' }}) #F7F7F7">
     <h1>We Give You The Best <strong>Price & Value</strong> For Your <strong>IT Needs</strong></h1>
   </div>
 
 {% elsif section.settings.banner_modular_collection %}
 
-  <div class="banner_modular_collection_group" >
+  <div class="banner-modular-collection-group" >
     <h1>We Give You The Worst <strong>Fuck off</strong> For Your <strong>IT Needs</strong></h1>
-    <ul class="home-bestsellers-list">
+    <ul class="banner-modular-collection-list">
       {%- for product in section.settings.banner_modular_collection.products -%}
         {% assign variant = product.first_available_variant %}
-        <li class="home-bestsellers--product-card">
-          <div class="hbpc-image">
+        <li class="banner-modular-collection-card">
+          <div class="banner-modular-collection-image">
             <img class="lazyload" data-src="{{ product.featured_image | image_url }}" alt="{{ product.title }}" />
           </div>
           <span class="hbpc-title">{{ product.title }}</span>
