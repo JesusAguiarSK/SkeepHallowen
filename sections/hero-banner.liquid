@@ -2,6 +2,14 @@
 {{ 'home-bestsellers.css' | asset_url | stylesheet_tag }}
 {% endcomment %}
 
+{% if section.settings.banner_modular %}
+
+{% endif %}
+
+{% if section.settings.banner_modular_collection %}
+
+{% endif %}
+
 {% comment %}
 <script type="text/javascript">
     jQuery( document ).ready(function() {
@@ -47,7 +55,7 @@
           },
           {
             "type": "image_picker",
-            "id": "banner_-modular",
+            "id": "banner_modular",
             "label": "Banner Modular Image"
           },
           {
