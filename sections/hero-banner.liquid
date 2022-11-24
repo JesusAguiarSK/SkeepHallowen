@@ -12,6 +12,33 @@
 
   <div class="banner_modular_collection_group" >
     <h1>We Give You The Worst <strong>Fuck off</strong> For Your <strong>IT Needs</strong></h1>
+    <ul class="home-bestsellers-list">
+      {%- for product in section.settings.home_bestsellers_collection.products -%}
+        {% assign variant = product.first_available_variant %}
+        <li class="home-bestsellers--product-card">
+          <div class="hbpc-image">
+            <img class="lazyload" data-src="{{ product.featured_image | image_url }}" alt="{{ product.title }}" />
+          </div>
+          <span class="hbpc-title">{{ product.title }}</span>
+          <div class="hbpc-price-box">
+            <span class="hbpc-final-price">
+              {{ variant.price | money_with_currency }}
+            </span>
+            {%- if variant.compare_at_price > 0 and variant.compare_at_price > variant.price -%}
+              <span class="hbpc-old-price">
+                {{ variant.compare_at_price | money_with_currency }}
+              </span>
+            {%- endif -%}
+          </div>
+          <div class="hbpc-actions">
+              <a href="{{ product.url }}" class="hbpc-action-view">Shop Now</a>
+              <button class="hbpc-action-cart" data-target="{{ variant.id }}">
+                  <img src="{{ 'bestseller-shopping-cart.svg' | asset_url }}" alt="Add To Cart" />
+              </button>
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
   </div> 
 
 {% endif %}
