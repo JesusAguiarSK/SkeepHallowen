@@ -183,6 +183,14 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "hero-banner": {
+        "type": "hero-banner",
+        "settings": {
+          "banner_modular_image": "shopify:\/\/shop_images\/asdasda.jpg",
+          "banner_modular_collection": "",
+          "banner_modular_title": ""
+        }
       }
     },
     "content_for_index": [

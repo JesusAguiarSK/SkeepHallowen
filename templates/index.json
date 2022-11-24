@@ -2,11 +2,13 @@
   "sections": {
     "ee3b84dc-9fbd-4453-835f-27641b102341": {
       "type": "section-banner",
+      "disabled": true,
       "settings": {
       }
     },
     "6e778182-4572-4e2d-af5c-ed893ed0a005": {
       "type": "section-description",
+      "disabled": true,
       "settings": {
       }
     },
