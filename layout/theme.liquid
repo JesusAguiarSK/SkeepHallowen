@@ -289,6 +289,10 @@
       }
     </script>
 
+    <!-- Lazy Load Images -->
+    <script type="text/javascript" src="{{ 'lazysizes.js' | asset_url }}"></script>
+    <!-- /Lazy Load Images -->
+    
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
