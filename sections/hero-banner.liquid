@@ -20,19 +20,10 @@
             <img class="lazyload" data-src="{{ product.featured_image | image_url }}" alt="{{ product.title }}" />
           </div>
           <span class="banner-modular-collection-title">{{ product.title }}</span>
-          <div class="hbpc-price-box">
-            <span class="hbpc-final-price">
-              {{ variant.price | money_with_currency }}
-            </span>
-            {%- if variant.compare_at_price > 0 and variant.compare_at_price > variant.price -%}
-              <span class="hbpc-old-price">
-                {{ variant.compare_at_price | money_with_currency }}
-              </span>
-            {%- endif -%}
-          </div>
-          <div class="hbpc-actions">
-              <a href="{{ product.url }}" class="hbpc-action-view">Shop Now</a>
-              <button class="hbpc-action-cart" data-target="{{ variant.id }}">
+
+          <div class="banner-modular-collection-actions">
+              <a href="{{ product.url }}" class="banner-modular-collection-action-view">Shop Now</a>
+              <button class="banner-modular-collection-action-cart" data-target="{{ variant.id }}">
                   <img src="{{ 'bestseller-shopping-cart.svg' | asset_url }}" alt="Add To Cart" />
               </button>
           </div>
@@ -43,10 +34,10 @@
 
 {% endif %}
 
-{% comment %}
+
 <script type="text/javascript">
     jQuery( document ).ready(function() {
-        jQuery('.home-bestsellers-list').slick({
+        jQuery('.banner-modular-collection-list').slick({
             infinite: false,
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -73,7 +64,7 @@
         });
     });
 </script>
-{% endcomment %}
+
 
 {% schema %}
     {
