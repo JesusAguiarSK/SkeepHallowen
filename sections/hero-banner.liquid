@@ -35,8 +35,31 @@
 {% endcomment %}
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+    {
+      "name": "ModularBanner",
+      "tag": "section",
+      "class": "home-banner",
+      "limit": 1,
+      "settings": [
+          {
+              "type": "header",
+              "content": "Settings"
+          },
+          {
+            "type": "image_picker",
+            "id": "bannerHome",
+            "label": "Banner Home"
+          },
+          {
+              "type": "collection",
+              "id": "home_bestsellers_collection",
+              "label": "Collection"
+          },
+          {
+              "type": "text",
+              "id": "home_bestsellers_subtitle",
+              "label": "Subtitle"
+          }
+      ]
+    }
 {% endschema %}
